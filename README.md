@@ -3,7 +3,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project implements a **production-grade, end-to-end data engineering pipeline** for Walmart retail data. Raw transactional data is ingested into **Databricks**, transformed through a **multi-layer dbt medallion architecture** (Bronze → Silver → Gold), and fully orchestrated using **Apache Airflow** running in Docker.
 
@@ -11,7 +11,7 @@ The pipeline follows modern data engineering best practices including Change Dat
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -91,7 +91,7 @@ The pipeline follows modern data engineering best practices including Change Dat
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 data_project_dbt/
@@ -129,7 +129,7 @@ data_project_dbt/
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Component | Technology | Version |
 |---|---|---|
@@ -142,7 +142,7 @@ data_project_dbt/
 
 ---
 
-## 🔄 Pipeline Workflow
+## Pipeline Workflow
 
 ### Step 1 — Databricks Ingestion (`databricks_orchestration` DAG)
 
@@ -173,7 +173,7 @@ Triggered by DAG 1 on successful Databricks job completion.
 
 ---
 
-## 🗂️ Data Model
+## Data Model
 
 ### Source Tables (Bronze Layer — `walmart.bronze`)
 
@@ -226,7 +226,7 @@ orders_t
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -240,7 +240,7 @@ Update the Databricks credentials in:
 - `airflow/walmart_project/profiles.yml` — dbt connection
 - `airflow/dags/databricks_orchestrate.py` — Databricks SDK connection
 
-> ⚠️ **Security Note**: Do not commit credentials to version control. Use Airflow Connections or environment variables instead.
+> **Security Note**: Do not commit credentials to version control. Use Airflow Connections or environment variables instead.
 
 ### 2. Start Airflow
 
@@ -259,7 +259,7 @@ Either:
 
 ---
 
-## 🔗 DAG Dependencies
+## DAG Dependencies
 
 ```
 databricks_orchestration
@@ -284,7 +284,7 @@ databricks_orchestration
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 ```
 apache-airflow>=3.3.0
@@ -296,6 +296,6 @@ databricks-sdk
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational and demonstration purposes.

@@ -1,0 +1,7 @@
+{
+    "dbt.deferConfigPerProject": {},
+    "python.defaultInterpreterPath": "C:\\Users\\neera\\Documents\\.venv\\Scripts\\python.exe",
+    "dbt.dbtPythonPath": "C:\\Users\\neera\\Documents\\.venv\\Scripts\\python.exe",
+    "dbt.dbtPath": "C:\\Users\\neera\\Documents\\.venv\\Scripts\\dbt.exe",
+    "dbt.profilesDir": "${workspaceFolder}/walmart_project"
+}

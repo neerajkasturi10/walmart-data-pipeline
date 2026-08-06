@@ -1,0 +1,66 @@
+{"timestamp":"2026-08-06T01:50:09.796785Z","level":"info","event":"::group::Pre Execute","logger":"task","filename":"task_runner.py","lineno":2303}
+{"timestamp":"2026-08-06T01:50:09.826020Z","level":"info","event":"DAG bundles loaded: dags-folder","dag_id":"databricks_orchestration","task_id":"check_databricks_job_status","run_id":"scheduled__2026-08-06T01:50:00+00:00","ti_id":"019fd4c3-5c39-7b68-aff6-1ae30347e433","try_number":1,"map_index":-1,"logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":271}
+{"timestamp":"2026-08-06T01:50:09.828044Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/databricks_orchestrate.py","dag_id":"databricks_orchestration","task_id":"check_databricks_job_status","run_id":"scheduled__2026-08-06T01:50:00+00:00","ti_id":"019fd4c3-5c39-7b68-aff6-1ae30347e433","try_number":1,"map_index":-1,"logger":"airflow.dag_processing.dagbag.BundleDagBag","filename":"dagbag.py","lineno":460}
+{"timestamp":"2026-08-06T01:50:11.577279Z","level":"warning","event":"The `airflow.operators.trigger_dagrun.TriggerDagRunOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.trigger_dagrun.TriggerDagRunOperator'`.","category":"UserWarning","filename":"/opt/airflow/dags/databricks_orchestrate.py","lineno":5,"dag_id":"databricks_orchestration","task_id":"check_databricks_job_status","run_id":"scheduled__2026-08-06T01:50:00+00:00","ti_id":"019fd4c3-5c39-7b68-aff6-1ae30347e433","try_number":1,"map_index":-1,"logger":"py.warnings"}
+{"timestamp":"2026-08-06T01:50:11.580381Z","level":"info","event":"Worker startup parse complete","bundle_name":"dags-folder","bundle_version":null,"dag_file":"databricks_orchestrate.py","dag_id":"databricks_orchestration","bundle_prepare_ms":2,"dag_file_parse_ms":1752,"task_id":"check_databricks_job_status","run_id":"scheduled__2026-08-06T01:50:00+00:00","ti_id":"019fd4c3-5c39-7b68-aff6-1ae30347e433","try_number":1,"map_index":-1,"logger":"task","filename":"task_runner.py","lineno":1062}
+{"timestamp":"2026-08-06T01:50:11.658271Z","level":"info","event":"::endgroup::","dag_id":"databricks_orchestration","task_id":"check_databricks_job_status","run_id":"scheduled__2026-08-06T01:50:00+00:00","ti_id":"019fd4c3-5c39-7b68-aff6-1ae30347e433","try_number":1,"map_index":-1,"logger":"task","filename":"task_runner.py","lineno":2107}
+{"timestamp":"2026-08-06T01:50:11.922239Z","level":"info","event":"None","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:50:11.922761Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:50:17.060327Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:50:22.135415Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:50:27.237013Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:50:32.352804Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:50:37.430832Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:50:42.601257Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:50:49.278820Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:51:03.276144Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:51:03.325899Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:51:07.134317Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:51:13.262551Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:51:18.342450Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:51:39.199794Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:51:39.200793Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:51:39.201223Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:51:43.814199Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:51:48.908528Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:51:54.062595Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:51:59.133620Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:52:04.269993Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:52:09.303416Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:52:14.373258Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:52:19.440964Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:52:24.518581Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:52:29.643206Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:52:34.713412Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:52:39.789274Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:52:44.898784Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:52:49.969032Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:52:55.043984Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:53:00.123350Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:53:05.219421Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:53:10.311304Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:53:15.380175Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:53:20.453891Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:53:25.535766Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:53:30.608276Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:53:35.709581Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:53:40.777103Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:53:45.856521Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:53:50.960395Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:53:56.067653Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:54:01.142997Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:54:09.971259Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:54:12.147187Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:54:24.236754Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:54:29.224011Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:54:38.776620Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:54:43.858024Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:54:48.932854Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:54:54.014262Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:54:59.087580Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:55:17.696239Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:55:17.697589Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:55:22.242065Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:55:27.313254Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"reason":"not_running","message":"TI is no longer in the running state and task should terminate","current_state":"failed"},"logger":"task"}
+{"timestamp":"2026-08-06T01:55:27.340037Z","level":"info","event":"Job is still running","logger":"task.stdout"}
+{"timestamp":"2026-08-06T01:55:32.510687Z","level":"error","event":"Task killed!","logger":"task"}

@@ -1,0 +1,24 @@
+models:
+  - name: products_t
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+          - unique
+      - name: price
+        tests:
+          - greater_than:
+              arguments:
+                value: 0.0
+
+  - name: orders_t
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+      
+
+
+          
+    

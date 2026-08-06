@@ -1,0 +1,10 @@
+snapshots:
+  - name: dim_order
+    relation: ref('ephemeral_orders')
+    config:
+      database: walmart
+      schema: gold
+      strategy: timestamp
+      unique_key: order_id
+      updated_at: order_updated_timestamp
+      dbt_valid_to_current: "to_date('9999-12-31')"

@@ -1,4 +1,4 @@
-# 🛒 Walmart Data Engineering Pipeline
+# Walmart Data Engineering Pipeline
 ### End-to-End Data Pipeline with Databricks · dbt · Apache Airflow
 
 ---
@@ -296,6 +296,6 @@ databricks-sdk
 
 ---
 
-## License
+## Licens
 
 This project is for educational and demonstration purposes.
